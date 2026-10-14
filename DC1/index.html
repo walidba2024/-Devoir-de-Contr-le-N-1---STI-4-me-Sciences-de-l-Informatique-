@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tarbia Conseil - Accueil</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- En-tête du site -->
+    <header>
+      <h1>Tarbia Conseil</h1>
+      <img src="images/logo.png" alt="Logo Tarbia" />
+    </header>
+
+    <!-- Zone principale contenant le menu et l'iframe -->
+    <main>
+      <!-- Menu latéral gauche -->
+      <nav>
+        <ul>
+          <!-- L'attribut target cible le name de l'iframe -->
+          <li><a href="presentation.html" target="contenu">Présentation</a></li>
+          <li><a href="objectifs.html" target="contenu">Objectifs</a></li>
+          <li><a href="sondage.html" target="contenu">Sondage</a></li>
+        </ul>
+      </nav>
+
+      <!-- Cadre de contenu à droite (Le conteneur section englobe l'iframe) -->
+      <section>
+        <iframe src="presentation.html" name="contenu" frameborder="0"></iframe>
+      </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+      Tarbia conseil suivez nous sur
+      <img src="images/icon.png" width="30px" height="30px" alt="" />
+    </footer>
+  </body>
+</html>
